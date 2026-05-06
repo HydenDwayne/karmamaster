@@ -1,0 +1,198 @@
+{
+  "site": {
+    "name": "KarmaMaster",
+    "tagline": "Turn Reddit Traffic Into Customers",
+    "description": "KarmaMaster is a premier Reddit marketing agency specializing in deploying authentic, human-crafted comments and posts that dominate Google and AI search rankings, fostering trust, nurturing leads, and driving conversions.",
+    "url": "https://karmamaster.io",
+    "ctaUrl": "#get-started",
+    "ctaLabel": "Get Started"
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Why Reddit?", "href": "#why-reddit" },
+      { "label": "Our Services", "href": "#services" },
+      { "label": "FAQs", "href": "#faq" }
+    ]
+  },
+
+  "hero": {
+    "badge": "Limited slots available",
+    "badgeCta": "→",
+    "headline": "Deploy Strategic Reddit Comments That <em>Dominate Google & AI Search Rankings</em> to Close More High-Value Deals",
+    "subheadline": "The proven system we've successfully implemented for numerous companies, transforming Reddit discussions into a steady stream of paying customers.",
+    "videoId": "YOUR_VIDEO_ID",
+    "videoDuration": "14:55",
+    "features": [
+      "Organic content through funnel marketing on Reddit",
+      "Access to premium, high-karma Reddit accounts",
+      "Community-centric participation approach"
+    ],
+    "secondaryFeatures": [
+      "Targeted lead generation",
+      "Proactive reputation management",
+      "Enhanced SEO and AI visibility"
+    ]
+  },
+
+  "problems": {
+    "eyebrow": "YOUR PROBLEMS",
+    "heading": "Reddit Marketing Agency Here to Help You Fix These Problems",
+    "subheading": "Does this sound like you?",
+    "items": [
+      {
+        "icon": "search",
+        "text": "We recognize Reddit as a powerful platform for connecting with our target audience, but lack the time, expertise, or resources to execute effectively. We require a comprehensive done-for-you solution that guarantees tangible results."
+      },
+      {
+        "icon": "ban",
+        "text": "Previous Reddit marketing attempts resulted in post removals, account bans, wasted efforts, and reputational damage. We seek a risk-free approach to amplify our message to the right audience without facing penalties."
+      },
+      
+      {
+        "icon": "trend",
+        "text": "We aim to harness Reddit's impact on Google and AI search rankings, but lack the knowledge to create rank-worthy content or monitor brand presence. We need an all-encompassing strategy addressing both Reddit engagement and search visibility."
+      }
+    ]
+  },
+
+  "solution": {
+    "eyebrow": "OUR SOLUTION",
+    "heading": "Here's How We Solve These Challenges",
+    "subheading": "A comprehensive, end-to-end Reddit marketing system that guarantees results while eliminating risks.",
+    "process": [
+      { "step": 1, "from": "Subreddit communities", "to": "Story-based content" },
+      { "step": 2, "label": "Monitor & replace negative threads" },
+      { "step": 3, "from": "Design for AI & Google", "to": "Performance dashboard" }
+    ],
+    "processLabel": "End-to-end system",
+    "items": [
+      
+      {
+        "icon": "document",
+        "title": "Human-Crafted Content:",
+        "text": "Zero bots, zero AI. Each post and comment is meticulously crafted by native speakers deeply versed in Reddit culture and community standards. We leverage aged accounts with authentic karma for optimal visibility and genuine engagement."
+      },
+      {
+        "icon": "eye",
+        "title": "Real-Time Monitoring:",
+        "text": "Comprehensive reporting and monitoring through Google Sheets. Track every post, upvote, comment, and impression in real-time."
+      },
+      {
+        "icon": "zap",
+        "title": "Streamlined Process:",
+        "text": "We manage everything from content creation to monitoring and reporting. You enjoy the results without any operational hassles."
+      }
+    ]
+  },
+
+  "whyReddit": {
+    "eyebrow": "WHY REDDIT?",
+    "heading": "Reddit: The Premier Decision-Making Hub for Buyers",
+    "subheading": "Reddit serves as the go-to platform for consumers researching products, posing questions, and absorbing authentic experiences prior to purchasing. It stands as the leading source for buying insights and recommendations.",
+    "intro": "People use Reddit to:",
+    "reasons": [
+      { "icon": "search", "text": "Research products and services" },
+      { "icon": "compare", "text": "Compare alternatives and get recommendations" },
+      { "icon": "star", "text": "Read real experiences and reviews" },
+      { "icon": "chat", "text": "Ask buying questions and get answers" }
+    ],
+    "card": {
+      "title": "Why Reddit?",
+      "subtitle": "A top source for buying research.",
+      "icons": [
+        { "label": "Research", "emoji": "🔍" },
+        { "label": "Compare", "emoji": "↔️" },
+        { "label": "Ask", "emoji": "💬" },
+        { "label": "Reviews", "emoji": "⭐" }
+      ]
+    }
+  },
+
+  "results": {
+    "eyebrow": "Real Results",
+    "heading": "Recent Work",
+    "subheading": "Proven expertise. Real results from our Reddit marketing campaigns.",
+    "campaigns": [
+      { "views": "455K", "upvotes": 688, "upvoteRatio": "94%", "comments": 199 },
+      { "views": "305K", "upvotes": 281, "upvoteRatio": "82%", "comments": 177 },
+      { "views": "134K", "upvotes": 277, "upvoteRatio": "86%", "comments": 154 },
+      { "views": "128K", "upvotes": 231, "upvoteRatio": "90%", "comments": 98 }
+    ]
+  },
+
+  "services": {
+    "eyebrow": "OUR SERVICES",
+    "heading": "Our Reddit Marketing Services",
+    "subheading": "From legal reputation management to organic growth initiatives: all the tools necessary to command your Reddit presence and achieve measurable results.",
+    "items": [
+      {
+        "icon": "document",
+        "name": "Organic Content Campaigns",
+        "features": [
+          "$400/month (500+ unique posts and comments)",
+          "Dozens of unique high-karma accounts",
+          "Real Reddit users"
+        ]
+      },
+      {
+        "icon": "pulse",
+        "name": "Real-Time Monitoring & Reporting",
+        "features": [
+          "Telegram & Discord Server for team management and communication",
+          "Google Sheets dashboard for real-time monitoring of all posts, upvotes, comments, and impressions"
+        ]
+      },
+      {
+        "icon": "search",
+        "name": "SEO & AI Visibility",
+        "features": [
+          "Reddit threads dominating Google rankings",
+          "Prominent brand presence in AI responses (ChatGPT, LLMs)",
+          "Content optimized for search and AI visibility"
+        ]
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "FAQs",
+    "heading": "Frequently Asked Questions",
+    "subheading": "Addressing the most common inquiries from our clients: covering control, guarantees, and our results-driven approach.",
+    "items": [
+      {
+        "question": "How are results measured and reported?",
+        "answer": "Results are meticulously measured and reported through real-time dashboards accessible via Google Sheets. Monitor every post, upvote, comment, and impression instantly. Monthly summaries detail reach and engagement metrics."
+      },
+      {
+        "question": "Can I pay monthly or is upfront payment mandatory?",
+        "answer": "Monthly billing options are available for all continuous campaigns. 50% down payment is required to initiate the campaign, with the remaining 50% billed at the end of each month thereafter. This structure allows for flexibility while ensuring commitment to the campaign's success."
+      },
+      {
+        "question": "Do I pay for posts or comments that were deleted/shadowbanned?",
+        "answer": "You only pay for what is accomplished by the end of the month. The remaining balance for the campaign is determined by the number of posts and comments that remain live and visible on Reddit at the end of each month."
+      },
+      {
+        "question": "How do you avoid AI detection and get real engagement?",
+        "answer": "All content is exclusively human-written by native speakers intimately familiar with Reddit culture. We utilize aged accounts boasting genuine karma histories. Zero bots, zero AI-generated content, zero template responses—each comment is uniquely tailored to its thread."
+      },
+      {
+        "question": "How many accounts do you use and how are they managed?",
+        "answer": "We maintain an extensive network of Reddit accounts, each with authentic karma distributed across diverse subreddits. Accounts are expertly managed by human operators who adhere to community norms and circumvent spam detection patterns."
+      },
+      {
+        "question": "Who makes final decisions and what's the approval process?",
+        "answer": "You retain full decision-making authority. Every post and comment undergoes your approval prior to publication. Nothing proceeds without your explicit sign-off, ensuring complete creative and strategic control throughout the campaign lifecycle."
+      }
+    ]
+  },
+
+  "footer": {
+    "tagline": "Turn Reddit Traffic Into Customers",
+    "links": [
+      { "label": "X (Twitter)", "href": "#", "icon": "twitter" },
+      { "label": "Free Reddit Guide", "href": "#", "icon": "book" }
+    ],
+    "copyright": "© 2026 KarmaMaster. All rights reserved."
+  }
+}

@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KarmaMaster — Reddit Marketing Agency That Ranks on Google & AI</title>
+  <meta name="description" content="KarmaMaster is a Reddit marketing agency that deploys human-written comments and posts that rank on Google and AI. We help 60+ companies build trust, warm up leads, and close more deals via Reddit." />
+  <meta name="keywords" content="reddit marketing agency, reddit SEO, reddit comments rank Google, reddit reputation management, negative reddit post removal, reddit AI visibility, reddit organic growth" />
+  <link rel="canonical" href="https://karmamaster.io/" />
+  <link rel="icon" href="Logo_new.ico" type="image/x-icon">
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="KarmaMaster" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://karmamaster.io/" />
+  <meta property="og:title" content="KarmaMaster — Reddit Marketing Agency That Ranks on Google & AI" />
+  <meta property="og:description" content="Deploy Reddit comments and posts that rank on Google and AI. Human-written, community-first. Trusted by 60+ companies." />
+  <meta property="og:image" content="https://karmamaster.io/og-image.png" />
+  <meta property="og:site_name" content="KarmaMaster" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="KarmaMaster — Reddit Marketing Agency That Ranks on Google & AI" />
+  <meta name="twitter:description" content="Deploy Reddit comments that rank on Google & AI. Build trust, warm up leads, close deals." />
+  <meta name="twitter:image" content="https://karmamaster.io/og-image.png" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://karmamaster.io/#organization",
+        "name": "KarmaMaster",
+        "url": "https://karmamaster.io",
+        "logo": "https://karmamaster.io/logo.png",
+        "description": "Reddit marketing agency specializing in organic Reddit campaigns, negative post removal, and AI/Google SEO visibility.",
+        "sameAs": ["https://twitter.com/karmamaster"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://karmamaster.io/#website",
+        "url": "https://karmamaster.io",
+        "name": "KarmaMaster",
+        "publisher": { "@id": "https://karmamaster.io/#organization" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How are results measured and reported?",
+            "acceptedAnswer": { "@type": "Answer", "text": "We provide real-time dashboards via Google Sheets. You can see every post, upvote, comment, and impression as it happens." }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you avoid AI detection and get real engagement?",
+            "acceptedAnswer": { "@type": "Answer", "text": "All content is 100% human-written by native speakers familiar with Reddit culture. We use aged accounts with real karma history. No bots, no AI-generated text." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<nav role="navigation" aria-label="Main navigation">
+  <div class="container nav-inner">
+    <a href="" class="nav-logo" aria-label="KarmaMaster home">
+      <div class="logo-icon" aria-hidden="true"><img src="Logo_new.png" alt="KarmaMaster Logo"></div>
+      <span id="nav-brand"></span>
+    </a>
+    <ul class="nav-links" id="nav-links"></ul>
+    <a href="#get-started" class="btn btn-primary btn-arrow nav-cta-desktop" id="nav-cta"></a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <ul class="mobile-nav-links" id="mobile-nav-links"></ul>
+    <a href="#get-started" class="btn btn-primary btn-arrow mobile-cta" id="mobile-cta"></a>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section id="hero" aria-labelledby="hero-heading">
+  <div class="container">
+    <div id="hero-badge" class="hero-badge" role="status" aria-live="polite"></div>
+    <h1 id="hero-heading"></h1>
+    <p class="hero-sub" id="hero-sub"></p>
+
+    <div class="hero-features" id="hero-features" role="list"></div>
+    <a href="#get-started" class="btn btn-primary btn-arrow">Get Started</a>
+    <div class="hero-secondary" id="hero-secondary" role="list"></div>
+  </div>
+</section>
+
+<hr class="section-divider" />
+
+<!-- ===== ACCOUNT STATS ===== -->
+<section id="trusted" aria-labelledby="stats-heading">
+  <div class="container">
+    <div id="trusted-eyebrow" class="eyebrow"></div>
+    <h2 id="stats-heading"></h2>
+    <p class="section-sub" id="trusted-sub"></p>
+    <div class="stats-cards-grid" id="stats-cards-grid" role="list" aria-label="Account network statistics"></div>
+  </div>
+</section>
+
+<!-- ===== PROBLEMS ===== -->
+<section id="problems" aria-labelledby="problems-heading">
+  <div class="container">
+    <div class="problems-grid">
+      <div>
+        <div id="problems-eyebrow" class="eyebrow orange"></div>
+        <h2 id="problems-heading"></h2>
+        <p class="section-sub" id="problems-sub" style="margin-bottom:28px;font-style:italic;"></p>
+        <div id="problems-list"></div>
+        <a href="#get-started" class="btn btn-primary btn-arrow mt-32">Get Started</a>
+      </div>
+      <div class="problem-visual" aria-hidden="true">
+        <div class="problem-emoji">😳</div>
+        <div class="problem-dots">
+          <div class="problem-dot"></div>
+          <div class="problem-dot"></div>
+          <div class="problem-dot"></div>
+        </div>
+        <div class="problem-visual-label">Why no traction?</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SOLUTION ===== -->
+<section id="solution" aria-labelledby="solution-heading">
+  <div class="container solution-centered">
+    <div id="solution-eyebrow" class="eyebrow"></div>
+    <h2 id="solution-heading"></h2>
+    <p class="section-sub" id="solution-sub" style="margin-bottom:40px;font-style:italic;max-width:580px;margin-left:auto;margin-right:auto;"></p>
+    <div class="solution-orbit-wrap" aria-hidden="true">
+      <div class="solution-orbit">
+        <div class="orbit-core">⚙️</div>
+        <div class="orbit-ring ring-1"><div class="orbit-dot dot-a"></div></div>
+        <div class="orbit-ring ring-2"><div class="orbit-dot dot-b"></div></div>
+      </div>
+      <div class="orbit-badge">End-to-end system</div>
+      <div class="orbit-labels">
+        <span class="orbit-label">Content Creation</span>
+        <span class="orbit-label">Monitoring</span>
+        <span class="orbit-label">SEO &amp; AI Visibility</span>
+      </div>
+    </div>
+    <div class="solution-items solution-items-row" id="solution-items"></div>
+    <div style="text-align:center;margin-top:36px;">
+      <a href="#get-started" class="btn btn-primary btn-arrow">Get Started</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY REDDIT ===== -->
+<section id="why-reddit" aria-labelledby="why-heading">
+  <div class="container">
+    <div class="why-grid">
+      <div>
+        <div id="why-eyebrow" class="eyebrow orange"></div>
+        <h2 id="why-heading"></h2>
+        <p class="section-sub" id="why-sub"></p>
+        <p class="section-sub2" id="why-intro"></p>
+        <div class="reason-list" id="reason-list" role="list"></div>
+        <a href="#get-started" class="btn btn-primary btn-arrow">Get Started</a>
+      </div>
+      <div>
+        <div class="why-card">
+          <h3 id="why-card-title"></h3>
+          <p class="why-card-sub" id="why-card-sub"></p>
+          <div class="why-icons" id="why-icons"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CAMPAIGN CALCULATOR ===== -->
+<section id="results" aria-labelledby="calc-heading">
+  <div class="container" style="text-align:center;">
+    <div class="eyebrow" style="margin-bottom:12px;">CAMPAIGN ESTIMATOR</div>
+    <h2 id="calc-heading">Sample Campaign Computation</h2>
+    <p class="section-sub" style="font-style:normal;max-width:540px;margin:0 auto 48px;">Set your budget and instantly see how your campaign breaks down — interactions, reach, and estimated views.</p>
+
+    <div class="calc-card">
+      <div class="calc-budget-row">
+        <label class="calc-label" for="budget-slider">Overall Budget</label>
+        <div class="calc-budget-display">
+          <span class="calc-currency">$</span>
+          <input type="number" id="budget-input" class="calc-budget-input" value="15" min="5" max="5000" step="1" />
+          <span class="calc-period">/ month</span>
+        </div>
+        <input type="range" id="budget-slider" class="calc-slider" min="5" max="500" step="5" value="15" />
+        <div class="calc-slider-labels"><span>$5</span><span>$500+</span></div>
+      </div>
+
+      <div class="calc-breakdown-grid">
+        <div class="calc-breakdown-item">
+          <div class="calc-breakdown-label">Admin &amp; Management Fee</div>
+          <div class="calc-breakdown-pct">30%</div>
+          <div class="calc-breakdown-val" id="bd-admin">$4.50</div>
+        </div>
+        <div class="calc-breakdown-sep">→</div>
+        <div class="calc-breakdown-item highlight">
+          <div class="calc-breakdown-label">Task Compensation Budget</div>
+          <div class="calc-breakdown-pct">70%</div>
+          <div class="calc-breakdown-val teal" id="bd-tasks">$10.50</div>
+        </div>
+      </div>
+
+      <!-- Mobile stacked cards (visible only on small screens) -->
+      <div class="calc-mobile-cards" id="calc-mobile-cards">
+        <div class="calc-mobile-card">
+          <div class="calc-mobile-card-header">
+            <span class="calc-type-badge post">📝 Reddit Posts</span>
+            <div class="calc-mobile-count" id="m-count-posts">3</div>
+          </div>
+          <div class="calc-mobile-rows">
+            <div class="calc-mobile-row">
+              <span class="calc-mobile-row-label">Cost per post</span>
+              <span class="calc-mobile-row-val">$1.00</span>
+            </div>
+            <div class="calc-mobile-row">
+              <span class="calc-mobile-row-label">% Allocation</span>
+              <span class="calc-mobile-row-val">
+                <div class="calc-pct-ctrl">
+                  <button class="calc-pct-btn" data-target="posts" data-delta="-5">−</button>
+                  <span class="calc-pct-val" id="m-pct-posts">25%</span>
+                  <button class="calc-pct-btn" data-target="posts" data-delta="5">+</button>
+                </div>
+              </span>
+            </div>
+            <div class="calc-mobile-row">
+              <span class="calc-mobile-row-label">Budget share</span>
+              <span class="calc-mobile-row-val teal" id="m-share-posts">$2.63</span>
+            </div>
+          </div>
+        </div>
+        <div class="calc-mobile-card">
+          <div class="calc-mobile-card-header">
+            <span class="calc-type-badge comment">💬 Reddit Comments</span>
+            <div class="calc-mobile-count" id="m-count-comments">16</div>
+          </div>
+          <div class="calc-mobile-rows">
+            <div class="calc-mobile-row">
+              <span class="calc-mobile-row-label">Cost per comment</span>
+              <span class="calc-mobile-row-val">$0.50</span>
+            </div>
+            <div class="calc-mobile-row">
+              <span class="calc-mobile-row-label">% Allocation</span>
+              <span class="calc-mobile-row-val">
+                <div class="calc-pct-ctrl">
+                  <button class="calc-pct-btn" data-target="comments" data-delta="-5">−</button>
+                  <span class="calc-pct-val" id="m-pct-comments">75%</span>
+                  <button class="calc-pct-btn" data-target="comments" data-delta="5">+</button>
+                </div>
+              </span>
+            </div>
+            <div class="calc-mobile-row">
+              <span class="calc-mobile-row-label">Budget share</span>
+              <span class="calc-mobile-row-val teal" id="m-share-comments">$7.88</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="calc-table-wrap">
+        <table class="calc-table" aria-label="Interaction breakdown">
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Cost / Interaction</th>
+              <th>% Allocation</th>
+              <th>Budget Share</th>
+              <th>Interactions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="calc-type-badge post">📝 Reddit Posts</span></td>
+              <td>$1.00</td>
+              <td>
+                <div class="calc-pct-ctrl">
+                  <button class="calc-pct-btn" data-target="posts" data-delta="-5">−</button>
+                  <span class="calc-pct-val" id="pct-posts">25%</span>
+                  <button class="calc-pct-btn" data-target="posts" data-delta="5">+</button>
+                </div>
+              </td>
+              <td id="share-posts">$2.63</td>
+              <td><strong id="count-posts" class="calc-count">3</strong></td>
+            </tr>
+            <tr>
+              <td><span class="calc-type-badge comment">💬 Reddit Comments</span></td>
+              <td>$0.50</td>
+              <td>
+                <div class="calc-pct-ctrl">
+                  <button class="calc-pct-btn" data-target="comments" data-delta="-5">−</button>
+                  <span class="calc-pct-val" id="pct-comments">75%</span>
+                  <button class="calc-pct-btn" data-target="comments" data-delta="5">+</button>
+                </div>
+              </td>
+              <td id="share-comments">$7.88</td>
+              <td><strong id="count-comments" class="calc-count">16</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="calc-summary-row">
+        <div class="calc-summary-item">
+          <div class="calc-summary-label">Total Interactions</div>
+          <div class="calc-summary-val" id="total-interactions">19</div>
+        </div>
+        <div class="calc-summary-divider"></div>
+        <div class="calc-summary-item">
+          <div class="calc-summary-label">Est. Post Views</div>
+          <div class="calc-summary-val teal" id="est-post-views">~45K</div>
+        </div>
+        <div class="calc-summary-divider"></div>
+        <div class="calc-summary-item">
+          <div class="calc-summary-label">Est. Comment Views</div>
+          <div class="calc-summary-val teal" id="est-comment-views">~96K</div>
+        </div>
+        <div class="calc-summary-divider"></div>
+        <div class="calc-summary-item">
+          <div class="calc-summary-label">Est. Total Reach</div>
+          <div class="calc-summary-val accent" id="est-total-views">~141K</div>
+        </div>
+      </div>
+
+      <p class="calc-disclaimer">* Estimated views based on average campaign performance. Posts avg ~2K views each; comments avg ~400 views each.</p>
+      <p class="calc-disclaimer">* Admin & Management Fees are negotiable for long-term, continuous campaigns.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== SERVICES ===== -->
+<section id="services" aria-labelledby="services-heading">
+  <div class="container">
+    <div id="services-eyebrow" class="eyebrow"></div>
+    <h2 id="services-heading"></h2>
+    <p class="section-sub" id="services-sub"></p>
+    <div class="services-grid" id="services-grid"></div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section id="faq" aria-labelledby="faq-heading">
+  <div class="container">
+    <div id="faq-eyebrow" class="eyebrow" style="margin-bottom:12px;"></div>
+    <h2 id="faq-heading"></h2>
+    <p class="section-sub" id="faq-sub"></p>
+    <div class="faq-list" id="faq-list" role="list"></div>
+    <a href="#get-started" class="btn btn-primary btn-arrow" id="get-started">Get Started</a>
+  </div>
+</section>
+
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" aria-labelledby="contact-heading">
+  <div class="container" style="text-align:center;">
+    <div class="eyebrow" style="margin-bottom:12px;">GET IN TOUCH</div>
+    <h2 id="contact-heading">Contact Us</h2>
+    <p class="section-sub" style="max-width:480px;margin:0 auto 48px;">Ready to grow on Reddit? Reach out through any of these channels and we'll get back to you fast.</p>
+    <div class="contact-grid">
+      <a href="mailto:hello@karmamaster.reddit@gmail.com" class="contact-card" aria-label="Email us">
+        <div class="contact-icon email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        </div>
+        <div class="contact-label">Email</div>
+        <div class="contact-handle">Send us an email →</div>
+      </a>
+      <a href="https://wa.me/639225958777" target="_blank" rel="noopener" class="contact-card" aria-label="Chat on WhatsApp">
+        <div class="contact-icon whatsapp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+        </div>
+        <div class="contact-label">WhatsApp</div>
+        <div class="contact-handle">Message us →</div>
+      </a>
+      <a href="https://t.me/Augustues" target="_blank" rel="noopener" class="contact-card" aria-label="Message on Telegram">
+        <div class="contact-icon telegram">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+        </div>
+        <div class="contact-label">Telegram</div>
+        <div class="contact-handle">Get in touch →</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer role="contentinfo">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">
+          <div class="logo-icon" aria-hidden="true"><img src="Logo_new.png" alt="KarmaMaster Logo"></div>
+          <span id="footer-brand"></span>
+        </div>
+        <p class="footer-tagline" id="footer-tagline"></p>
+      </div>
+      
+    </div>
+    <div class="footer-bottom">
+      <p id="footer-copy"></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+const icons = {
+  search:   `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8" cy="8" r="5"/><path d="m13 13 3 3"/></svg>`,
+  ban:      `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="10" cy="10" r="7"/><path d="M5 15L15 5"/></svg>`,
+  alert:    `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 3l7 13H3L10 3z"/><line x1="10" y1="10" x2="10" y2="13"/><circle cx="10" cy="15.5" r=".5" fill="currentColor"/></svg>`,
+  trend:    `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3,14 8,9 12,12 17,6"/><polyline points="13,6 17,6 17,10"/></svg>`,
+  shield:   `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 2l7 3v5c0 4-3 7-7 9-4-2-7-5-7-9V5l7-3z"/></svg>`,
+  document: `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="12" height="16" rx="2"/><line x1="7" y1="7" x2="13" y2="7"/><line x1="7" y1="11" x2="13" y2="11"/></svg>`,
+  eye:      `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 10s3-6 8-6 8 6 8 6-3 6-8 6-8-6-8-6z"/><circle cx="10" cy="10" r="2.5"/></svg>`,
+  zap:      `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11,2 4,12 10,12 9,18 16,8 10,8"/></svg>`,
+  compare:  `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4,10 8,6 12,14 16,10"/></svg>`,
+  star:     `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><polygon points="10,2 12.4,7.6 18.5,8.2 14,12.3 15.5,18.2 10,15 4.5,18.2 6,12.3 1.5,8.2 7.6,7.6"/></svg>`,
+  chat:     `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 5a2 2 0 012-2h10a2 2 0 012 2v8a2 2 0 01-2 2H7l-4 3V5z"/></svg>`,
+  pulse:    `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3,10 7,10 9,5 11,15 13,10 17,10"/></svg>`,
+  upvote:   `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 4l6 6H4l6-6z"/></svg>`,
+  twitter:  `<svg viewBox="0 0 20 20" fill="currentColor"><path d="M17.3 6.4c.5-.7.8-1.5.8-2.4-.8.5-1.6.8-2.5 1a3.8 3.8 0 00-6.5 3.5C6.2 8.3 3.5 7 1.7 4.8a3.8 3.8 0 001.2 5.1c-.7 0-1.3-.2-1.8-.5a3.8 3.8 0 003 3.7c-.7.2-1.4.2-2 .1a3.8 3.8 0 003.5 2.6A7.6 7.6 0 012 17.2a10.7 10.7 0 005.8 1.7c7 0 10.8-5.8 10.8-10.8v-.5a7.6 7.6 0 001.9-2z"/></svg>`,
+  book:     `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 2h12a1 1 0 011 1v14a1 1 0 01-1 1H4a1 1 0 01-1-1V3a1 1 0 011-1z"/><line x1="8" y1="2" x2="8" y2="18"/></svg>`,
+  views:    `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 10s3-6 8-6 8 6 8 6-3 6-8 6-8-6-8-6z"/><circle cx="10" cy="10" r="2.5"/></svg>`,
+  users:    `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="7" cy="7" r="3"/><path d="M1 17c0-3.3 2.7-6 6-6"/><circle cx="14" cy="7" r="3"/><path d="M19 17c0-3.3-2.7-6-6-6"/></svg>`,
+  star2:    `<svg viewBox="0 0 20 20" fill="currentColor"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>`,
+  crown:    `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 15h14l-2-8-4 4-3-6-3 6-4-4z"/></svg>`,
+};
+
+function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function icon(name) { return icons[name] || ''; }
+
+fetch('content.json')
+  .then(r => r.json())
+  .then(c => {
+    buildNav(c);
+    buildHero(c.hero, c.site);
+    buildAccountStats();
+    buildProblems(c.problems);
+    buildSolution(c.solution);
+    buildWhyReddit(c.whyReddit);
+
+    buildServices(c.services);
+    buildFaq(c.faq);
+    buildFooter(c.footer, c.site);
+  });
+
+/* ---- NAV ---- */
+function buildNav(c) {
+  document.getElementById('nav-brand').textContent = c.site.name;
+  document.getElementById('nav-cta').textContent = c.site.ctaLabel;
+  document.getElementById('mobile-cta').textContent = c.site.ctaLabel;
+  // Inject contact link
+  c.nav.links.push({ label: 'Contact', href: '#contact' });
+  const ul = document.getElementById('nav-links');
+  const mobileUl = document.getElementById('mobile-nav-links');
+  c.nav.links.forEach(l => {
+    const li = document.createElement('li');
+    li.innerHTML = `<a href="${esc(l.href)}">${esc(l.label)}</a>`;
+    ul.appendChild(li);
+    const mli = document.createElement('li');
+    mli.innerHTML = `<a href="${esc(l.href)}" class="mobile-nav-link">${esc(l.label)}</a>`;
+    mobileUl.appendChild(mli);
+  });
+
+  // Hamburger logic
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobile-menu');
+  hamburger.addEventListener('click', function() {
+    const isOpen = mobileMenu.classList.toggle('open');
+    hamburger.classList.toggle('open', isOpen);
+    hamburger.setAttribute('aria-expanded', isOpen);
+    mobileMenu.setAttribute('aria-hidden', !isOpen);
+  });
+  // Close on link click
+  mobileMenu.querySelectorAll('a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      mobileMenu.classList.remove('open');
+      hamburger.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', false);
+      mobileMenu.setAttribute('aria-hidden', true);
+    });
+  });
+}
+
+/* ---- HERO ---- */
+function buildHero(h, site) {
+  const badge = document.getElementById('hero-badge');
+  badge.innerHTML = `<span class="badge-dot"></span><a href="#get-started" class="badge-link">${esc(h.badge)} ${esc(h.badgeCta)}</a>`;
+  document.getElementById('hero-heading').innerHTML = h.headline;
+  document.getElementById('hero-sub').innerHTML = h.subheadline;
+
+  const feats = document.getElementById('hero-features');
+  h.features.forEach(f => {
+    feats.insertAdjacentHTML('beforeend', `<div class="hero-feature" role="listitem"><span class="check-icon">⊙</span>${esc(f)}</div>`);
+  });
+  const sec = document.getElementById('hero-secondary');
+  h.secondaryFeatures.forEach(f => {
+    sec.insertAdjacentHTML('beforeend', `<span role="listitem"><span class="check-icon">⊙</span>${esc(f)}</span>`);
+  });
+}
+
+/* ---- ACCOUNT STATS ---- */
+function buildAccountStats() {
+  document.getElementById('trusted-eyebrow').textContent = 'OUR NETWORK';
+  document.getElementById('stats-heading').textContent = 'The Account Network Behind Your Growth';
+  document.getElementById('trusted-sub').textContent = 'A premium arsenal of aged, high-karma Reddit accounts powering every campaign we run.';
+
+  const cards = [
+    {
+      icon: 'users',
+      number: '120+',
+      label: 'Total Accounts',
+      desc: 'A vast, continuously growing network of unique Reddit accounts — each operated by real humans and active across diverse subreddits.',
+      badge: 'And growing',
+    },
+    {
+      icon: 'star2',
+      number: '90+',
+      label: 'Accounts Over 1K Karma',
+      desc: 'Established accounts with 1,000+ karma carry real community credibility, helping your content land with higher trust and visibility.',
+      badge: 'High trust',
+    },
+    {
+      icon: 'crown',
+      number: '30+',
+      label: 'Accounts Over 10K Karma',
+      desc: 'Our elite tier — deeply aged accounts with 10,000+ karma that command authority in competitive subreddits and survive moderation.',
+      badge: 'Elite tier',
+    },
+  ];
+
+  const grid = document.getElementById('stats-cards-grid');
+  cards.forEach(card => {
+    grid.insertAdjacentHTML('beforeend', `
+      <article class="stat-card" role="listitem">
+        <div class="stat-card-icon" aria-hidden="true">${icon(card.icon)}</div>
+        <div class="stat-card-number">${esc(card.number)}</div>
+        <div class="stat-card-label">${esc(card.label)}</div>
+        <p class="stat-card-desc">${esc(card.desc)}</p>
+        <div class="stat-card-badge">✦ ${esc(card.badge)}</div>
+      </article>`);
+  });
+}
+
+/* ---- PROBLEMS ---- */
+function buildProblems(p) {
+  document.getElementById('problems-eyebrow').textContent = p.eyebrow;
+  document.getElementById('problems-heading').textContent = p.heading;
+  document.getElementById('problems-sub').textContent = p.subheading;
+  const list = document.getElementById('problems-list');
+  p.items.forEach(item => {
+    list.insertAdjacentHTML('beforeend', `
+      <div class="problem-item">
+        <div class="problem-icon" aria-hidden="true">${icon(item.icon)}</div>
+        <p class="problem-text">${esc(item.text)}</p>
+      </div>`);
+  });
+}
+
+/* ---- SOLUTION ---- */
+function buildSolution(s) {
+  document.getElementById('solution-eyebrow').textContent = s.eyebrow;
+  document.getElementById('solution-heading').textContent = s.heading;
+  document.getElementById('solution-sub').textContent = s.subheading;
+  const items = document.getElementById('solution-items');
+  const cls = ['green','blue','purple','orange'];
+  s.items.forEach((item, i) => {
+    items.insertAdjacentHTML('beforeend', `
+      <div class="solution-item">
+        <div class="sol-icon ${cls[i]}" aria-hidden="true">${icon(item.icon)}</div>
+        <p class="sol-text"><strong>${esc(item.title)}</strong> ${esc(item.text)}</p>
+      </div>`);
+  });
+}
+
+/* ---- WHY REDDIT ---- */
+function buildWhyReddit(w) {
+  document.getElementById('why-eyebrow').textContent = w.eyebrow;
+  document.getElementById('why-heading').textContent = w.heading;
+  document.getElementById('why-sub').textContent = w.subheading;
+  document.getElementById('why-intro').textContent = w.intro;
+  const list = document.getElementById('reason-list');
+  w.reasons.forEach(r => {
+    list.insertAdjacentHTML('beforeend', `
+      <div class="reason-item" role="listitem">
+        <div class="reason-icon" aria-hidden="true">${icon(r.icon)}</div>
+        <span class="reason-text">${esc(r.text)}</span>
+      </div>`);
+  });
+  document.getElementById('why-card-title').textContent = w.card.title;
+  document.getElementById('why-card-sub').textContent = w.card.subtitle;
+  const wi = document.getElementById('why-icons');
+  w.card.icons.forEach(ic => {
+    wi.insertAdjacentHTML('beforeend', `
+      <div class="why-icon-item">
+        <div class="why-icon-box" aria-hidden="true">${ic.emoji}</div>
+        <span class="why-icon-label">${esc(ic.label)}</span>
+      </div>`);
+  });
+}
+
+/* ---- RESULTS ---- */
+function buildResults(r) {
+  document.getElementById('results-eyebrow').textContent = r.eyebrow;
+  document.getElementById('results-heading').textContent = r.heading;
+  document.getElementById('results-sub').textContent = r.subheading;
+  const grid = document.getElementById('results-grid');
+  r.campaigns.forEach(c => {
+    grid.insertAdjacentHTML('beforeend', `
+      <article class="result-card" aria-label="Campaign result">
+        <p class="result-section-label">REACH</p>
+        <div class="result-row">
+          <span class="result-label">${icon('views')} Views</span>
+          <strong class="result-value">${esc(c.views)}</strong>
+        </div>
+        <hr class="result-divider" />
+        <p class="result-section-label">ENGAGEMENT</p>
+        <div class="result-row">
+          <span class="result-label">${icon('upvote')} Upvotes</span>
+          <strong class="result-value">${c.upvotes.toLocaleString()}</strong>
+        </div>
+        <div class="result-row">
+          <span class="result-label">${icon('upvote')} Upvote Ratio</span>
+          <strong class="result-value ratio">${esc(c.upvoteRatio)}</strong>
+        </div>
+        <div class="result-row">
+          <span class="result-label">${icon('chat')} Comments</span>
+          <strong class="result-value">${c.comments}</strong>
+        </div>
+      </article>`);
+  });
+}
+
+/* ---- SERVICES ---- */
+function buildServices(s) {
+  document.getElementById('services-eyebrow').textContent = s.eyebrow;
+  document.getElementById('services-heading').textContent = s.heading;
+  document.getElementById('services-sub').textContent = s.subheading;
+  const grid = document.getElementById('services-grid');
+  s.items.forEach(item => {
+    grid.insertAdjacentHTML('beforeend', `
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">${icon(item.icon)}</div>
+        <h3 class="service-name">${esc(item.name)}</h3>
+        <div class="service-features">${item.features.map(f =>
+          `<div class="service-feature"><span class="svc-check">⊙</span>${esc(f)}</div>`).join('')}
+        </div>
+      </article>`);
+  });
+}
+
+/* ---- FAQ ---- */
+function buildFaq(f) {
+  document.getElementById('faq-eyebrow').textContent = f.eyebrow;
+  document.getElementById('faq-heading').textContent = f.heading;
+  document.getElementById('faq-sub').textContent = f.subheading;
+  const list = document.getElementById('faq-list');
+  f.items.forEach((item, i) => {
+    const div = document.createElement('div');
+    div.className = 'faq-item';
+    div.setAttribute('role','listitem');
+    const answerId = `faq-answer-${i}`;
+    div.innerHTML = `
+      <button class="faq-question" aria-expanded="false" aria-controls="${answerId}">
+        ${esc(item.question)}
+        <span class="faq-chevron" aria-hidden="true">▾</span>
+      </button>
+      <div class="faq-answer" id="${answerId}" role="region">${esc(item.answer)}</div>`;
+    div.querySelector('button').addEventListener('click', function() {
+      const isOpen = div.classList.toggle('open');
+      this.setAttribute('aria-expanded', isOpen);
+    });
+    list.appendChild(div);
+  });
+}
+
+/* ---- FOOTER ---- */
+function buildFooter(f, site) {
+  document.getElementById('footer-brand').textContent = site.name;
+  document.getElementById('footer-tagline').textContent = f.tagline;
+  document.getElementById('footer-copy').textContent = f.copyright;
+  const links = document.getElementById('footer-links');
+  f.links.forEach(l => {
+    links.insertAdjacentHTML('beforeend', `
+      <a href="${esc(l.href)}" aria-label="${esc(l.label)}">
+        <span style="width:16px;height:16px;display:inline-block">${icon(l.icon)}</span>
+        ${esc(l.label)}
+      </a>`);
+  });
+}
+
+/* ---- CALCULATOR ---- */
+(function() {
+  var postPct = 25;
+  var ADMIN_RATE = 0.30;
+  var TASK_RATE = 0.70;
+  var POST_COST = 1.00;
+  var COMMENT_COST = 0.50;
+  var POST_VIEWS_PER = 2000;
+  var COMMENT_VIEWS_PER = 400;
+
+  function fmt(n) { return '$' + n.toFixed(2); }
+  function fmtViews(n) {
+    if (n >= 1000000) return '~' + (n/1000000).toFixed(1) + 'M';
+    if (n >= 1000) return '~' + Math.round(n/1000) + 'K';
+    return '~' + n;
+  }
+
+  function recalc() {
+    var budget = parseFloat(document.getElementById('budget-input').value) || 15;
+    if (budget < 5) budget = 5;
+
+    var admin = budget * ADMIN_RATE;
+    var tasks = budget * TASK_RATE;
+
+    var postShare = tasks * (postPct / 100);
+    var commentShare = tasks * ((100 - postPct) / 100);
+
+    var postCount = Math.floor(postShare / POST_COST);
+    var commentCount = Math.floor(commentShare / COMMENT_COST);
+
+    var estPostViews = postCount * POST_VIEWS_PER;
+    var estCommentViews = commentCount * COMMENT_VIEWS_PER;
+    var estTotal = estPostViews + estCommentViews;
+
+    document.getElementById('bd-admin').textContent = fmt(admin);
+    document.getElementById('bd-tasks').textContent = fmt(tasks);
+    // Desktop table
+    document.getElementById('pct-posts').textContent = postPct + '%';
+    document.getElementById('pct-comments').textContent = (100 - postPct) + '%';
+    document.getElementById('share-posts').textContent = fmt(postShare);
+    document.getElementById('share-comments').textContent = fmt(commentShare);
+    document.getElementById('count-posts').textContent = postCount;
+    document.getElementById('count-comments').textContent = commentCount;
+    // Mobile cards
+    document.getElementById('m-pct-posts').textContent = postPct + '%';
+    document.getElementById('m-pct-comments').textContent = (100 - postPct) + '%';
+    document.getElementById('m-share-posts').textContent = fmt(postShare);
+    document.getElementById('m-share-comments').textContent = fmt(commentShare);
+    document.getElementById('m-count-posts').textContent = postCount;
+    document.getElementById('m-count-comments').textContent = commentCount;
+    document.getElementById('total-interactions').textContent = postCount + commentCount;
+    document.getElementById('est-post-views').textContent = fmtViews(estPostViews);
+    document.getElementById('est-comment-views').textContent = fmtViews(estCommentViews);
+    document.getElementById('est-total-views').textContent = fmtViews(estTotal);
+  }
+
+  function syncSlider() {
+    var v = parseFloat(this.value) || 15;
+    var sliderMax = 500;
+    document.getElementById('budget-slider').value = Math.min(v, sliderMax);
+    recalc();
+  }
+
+  window.addEventListener('DOMContentLoaded', function() {
+    var slider = document.getElementById('budget-slider');
+    var numInput = document.getElementById('budget-input');
+
+    slider.addEventListener('input', function() {
+      numInput.value = this.value;
+      recalc();
+    });
+    numInput.addEventListener('input', syncSlider);
+    numInput.addEventListener('change', syncSlider);
+
+    document.querySelectorAll('.calc-pct-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var delta = parseInt(this.dataset.delta);
+        var target = this.dataset.target;
+        if (target === 'posts') {
+          postPct = Math.max(5, Math.min(95, postPct + delta));
+        } else {
+          postPct = Math.max(5, Math.min(95, postPct - delta));
+        }
+        recalc();
+      });
+    });
+
+    recalc();
+  });
+})();
+
+</script>
+</body>
+</html>
